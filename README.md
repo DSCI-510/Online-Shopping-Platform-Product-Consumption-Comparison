@@ -88,8 +88,8 @@ project_root/
 │   └── main.py                  # Main entry point — runs scraping, cleaning, analysis & plotting
 │
 ├── requirements.txt             # Python dependencies
-├── function_doc.md		           # All function description
-├── project_proposal
+├── function_doc.md		         # All function description
+├── project_proposal.pdf
 └── README.md                    # Project documentation
 ```
 
