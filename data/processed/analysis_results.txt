@@ -1,0 +1,116 @@
+============================================================
+GPU MARKET ANALYSIS
+============================================================
+
+   1. BASIC DESCRIPTIVE STATISTICS:
+----------------------------------------
+Total Products Analyzed: 22
+Unique Brands: 4
+Brands: ASUS, GIGABYTE, MSI, ZOTAC
+
+Price Statistics:
+  Mean Price: $3099.44
+  Median Price: $2974.99
+  Minimum Price: $1999.99
+  Maximum Price: $5416.97
+  Price Range: $3416.98
+  Standard Deviation: $800.29
+
+   2. CATEGORY-WISE ANALYSIS:
+----------------------------------------
+
+Water Cooled Flagship:
+  Products: 4
+  Average Price: $3067.49
+  Price Range: $2799.99 - $3229.99
+  Unique Brands: 3
+
+Air Cooled Flagship:
+  Products: 5
+  Average Price: $3547.98
+  Price Range: $2612.98 - $5416.97
+  Unique Brands: 3
+
+Game-enhanced:
+  Products: 9
+  Average Price: $2919.98
+  Price Range: $1999.99 - $4422.90
+  Unique Brands: 4
+
+Basic:
+  Products: 4
+  Average Price: $2974.49
+  Price Range: $1999.99 - $4599.00
+  Unique Brands: 3
+
+   3. BRAND ANALYSIS:
+----------------------------------------
+
+Top 5 Brands by Product Count:
+          Count  Mean_Price  Median_Price  Min_Price  Max_Price  Price_Std  Title_Count
+brand                                                                                  
+GIGABYTE      9     2975.87       2999.99    1999.99    4422.90     651.58            9
+MSI           5     2843.19       2799.00    2599.99    3229.99     257.21            5
+ZOTAC         5     3485.79       2799.99    1999.99    5416.97    1449.86            5
+ASUS          3     3253.32       3359.99    2999.99    3399.99     220.30            3
+
+   4. PRICE SEGMENTATION:
+----------------------------------------
+High-end ($1500-$2000): 2 products ($1999.99-$1999.99)
+Premium (≥$2000): 20 products ($2499.99-$5416.97)
+
+   5. STATISTICAL TESTS:
+----------------------------------------
+ANOVA Test for Price Differences Between Categories:
+  F-statistic: 0.6762
+  P-value: 0.5778
+  Result: No significant price differences between categories
+
+   7. KEY INSIGHTS:
+----------------------------------------
+• Most expensive brand on average: ZOTAC ($3485.79)
+• Most popular brand by product count: GIGABYTE (9 products)
+• Premium categories cost 13.5% more than standard categories
+  ($3334.43 vs $2936.75)
+
+============================================================
+SSD MARKET ANALYSIS (2TB)
+============================================================
+
+Total 2TB SSDs Analyzed: 92
+
+SSD Price Statistics:
+  Mean: $225.14
+  Median: $217.68
+  Range: $39.99 - $676.99
+  Standard Deviation: $78.83
+  IQR (Middle 50%): $189.99 - $250.99
+  Potential Price Outliers: 8 products
+
+SSD Brands Available: 19
+
+Top 5 Brands by Product Count:
+  SanDisk: 20 products
+  KingSpec: 15 products
+  SAMSUNG: 14 products
+  Crucial: 9 products
+  Team Group: 9 products
+
+Brand Price Analysis:
+                 mean  median  count
+brand                               
+SanDisk        241.61  244.99     20
+KingSpec       221.26  199.99     15
+SAMSUNG        253.51  249.12     14
+Crucial        253.02  239.75      9
+Team Group     192.10  191.99      9
+ONEBOOM        205.99  169.99      5
+Silicon Power  206.22  202.10      4
+SSK            233.49  233.49      2
+SK hynix       269.99  269.99      2
+Patriot        194.99  194.99      2
+
+============================================================
+ANALYSIS COMPLETE
+============================================================
+Analysis results saved to: ../data/processed\analysis_results.txt
