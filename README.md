@@ -75,6 +75,9 @@ project_root/
 │   ├── processed/               # Cleaned, normalized CSVs and analysis logs
 │   └── images/                  # Generated visualization charts (GPU & SSD)
 │
+├── result/
+│   ├── final_report.pdf
+│
 ├── src/
 │   ├── Analysis.py              # Statistical analysis & aggregation functions
 │   ├── Classify_gpu.py          # GPU categorization logic
@@ -85,7 +88,8 @@ project_root/
 │   └── main.py                  # Main entry point — runs scraping, cleaning, analysis & plotting
 │
 ├── requirements.txt             # Python dependencies
-├── function_doc.md		           # All function description 
+├── function_doc.md		           # All function description
+├── project_proposal
 └── README.md                    # Project documentation
 ```
 
