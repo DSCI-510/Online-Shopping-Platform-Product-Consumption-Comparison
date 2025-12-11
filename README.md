@@ -76,7 +76,7 @@ project_root/
 │   └── images/                  # Generated visualization charts (GPU & SSD)
 │
 ├── result/
-│   ├── final_report.pdf
+│   └── final_report.pdf
 │
 ├── src/
 │   ├── Analysis.py              # Statistical analysis & aggregation functions
